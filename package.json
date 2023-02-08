@@ -1,6 +1,6 @@
 {
   "name": "@hometownjs/command",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "HoMeTownJS's command tools.",
   "author": {
     "name": "HoMeTownJS",
@@ -34,7 +34,7 @@
     "cleanup": "hometown cleanup",
     "update-pkg": "hometown update-pkg",
     "update-version": "bumpp package.json",
-    "publish-pkg": "pnpm -r publish --access public",
+    "publish-pkg": "pnpm publish --access public",
     "init-git-hooks": "hometown init-git-hooks",
     "release": "pnpm update-version && pnpm publish-pkg",
     "lint-staged": "lint-staged"
