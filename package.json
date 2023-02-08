@@ -1,7 +1,7 @@
 {
   "name": "@hometownjs/command",
   "version": "0.0.1",
-  "description": "HoMeTownJS's command lint tools.",
+  "description": "HoMeTownJS's command tools.",
   "author": {
     "name": "HoMeTownJS",
     "email": "hometownsocool@gmail.com",
