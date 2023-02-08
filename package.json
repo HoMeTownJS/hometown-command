@@ -1,6 +1,6 @@
 {
   "name": "@hometownjs/command",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "HoMeTownJS's command tools.",
   "author": {
     "name": "HoMeTownJS",
@@ -51,10 +51,11 @@
   },
   "peerDependencies": {
     "lint-staged": "^13.1.0",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "simple-git-hooks": "^2.8.1"
   },
   "devDependencies": {
-    "@hometownjs/command": "workspace:^0.0.2",
+    "@hometownjs/command": "workspace:^0.0.3",
     "@hometownjs/eslint-config-ts": "^0.0.3",
     "@hometownjs/npm-proxy": "^0.0.4",
     "@types/prompts": "^2.4.2",
