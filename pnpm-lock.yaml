@@ -4,7 +4,7 @@ importers:
 
   .:
     specifiers:
-      '@hometownjs/command': workspace:^0.0.1
+      '@hometownjs/command': workspace:^0.0.2
       '@hometownjs/eslint-config-ts': ^0.0.3
       '@hometownjs/npm-proxy': ^0.0.4
       '@types/prompts': ^2.4.2
