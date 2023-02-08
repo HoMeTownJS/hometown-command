@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['soybeanjs'],
+  extends: ['@hometownjs/eslint-config-ts'],
   overrides: [
     {
       files: ['packages/scripts/*.ts', 'packages/*.ts'],

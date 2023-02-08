@@ -3,7 +3,8 @@ import { program } from 'commander';
 import { blue } from 'kolorist';
 import pkg from '../package.json';
 import { gitCommit, verifyGitCommit } from './command';
-import { cleanup, initSimpleGitHooks, updatePkg } from './scripts';
+import { cleanup, initSimpleGitHooks, updatePkg, setNpmReg } from './scripts';
+import { NPM_REG_OFFICIAL, NPM_REG_TAOBAO } from '@hometownjs/npm-proxy';
 
 program
   .command('git-commit')
@@ -38,6 +39,20 @@ program
   .description('升级依赖')
   .action(() => {
     updatePkg();
+  });
+
+program
+  .command('set-npmreg')
+  .description('设置npm镜像（官方）')
+  .action(() => {
+    setNpmReg(NPM_REG_OFFICIAL);
+  });
+
+program
+  .command('set-npmreg-taobao')
+  .description('设置npm镜像（淘宝）')
+  .action(() => {
+    setNpmReg(NPM_REG_TAOBAO);
   });
 
 // 配置options
