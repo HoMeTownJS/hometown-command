@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="220px" src="https://i.ibb.co/wWQbf6t/i-va-7.png" />
+  <img width="220px" src="https://github.com/HoMeTownJS/site/blob/main/public/images/logo-vertical.png?raw=true" />
 </p>
 <p align="center"><b>✨@hometownjs/command 💥</b></p>
 <p align="center">HoMeTownJS's command tools..</p>
