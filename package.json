@@ -1,6 +1,6 @@
 {
   "name": "@hometownjs/command",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "HoMeTownJS's command tools.",
   "author": {
     "name": "HoMeTownJS",
